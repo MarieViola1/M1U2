@@ -5,27 +5,46 @@
 <head>
     <meta charset="utf-8" />
     <title>Mariela Viola</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
-    <h1>Presentación deportiva de Mariela Viola</h1>
+    <h1 id="titulo">Presentación deportiva de Mariela Viola</h1>
     <img src="img/fotomarie.png" alt="La foto de Mariela Viola">
     <h2>Trayectoria Deportiva</h2>
-    <h3>Trayectoria como jugadora de fútbol</h3>
-    <ul>
-        <h4>Año 1997 - 2020</h4>
-        <li>Club Atlético Platense</li>
-        <li>Club Atlético River Plate</li>
-        <li>Club Atlético Huracán</li>
-        <li>Club Atlético Atlanta</li>
-    </ul>
+    <div class="jugadora">
+        <div class="item">
+            <h3>Trayectoria como jugadora de fútbol</h3>
+            <ul>
+                <h4>Año 1997 - 2010</h4>
+                <li>Club Atlético Platense</li>
+                <li>Club Atlético River Plate</li>
+                <li>Club Atlético Huracán</li>
+                <li>Club Atlético Atlanta</li>
+            </ul>
+        </div>
+        <div class="item">
+            <h3>Trayectoria como entrenadora</h3>
+            <ul>
+                <h4>Año 2010 - actualidad</h4>
+                <li>Club Atlético Huracán</li>
+                <li>Club Atlético Platense</li>
+                <li>Club Atlético Nueva Chicago</li>
+                <li>Club Social y Deportivo Defensores de Florida</li>
+                <li>Villa La Ñata Sporting Club</li>
+                <li>Club Atlético Atlas</li>
+                <li>Sociedad de Fomento Güemes Jr</li>
+                <li>El Ciclón de Villa Martelli F.C.</li>
+            </ul>
+        </div>
+    </div>
 
-    <h2>Último trabajo</h2>
-    <p>El Ciclón F.C.</p>
+    <h2 class="destacado1">Último trabajo</h2>
+    <p class="destacado">El Ciclón F.C.</p>
     <video src="VID-20221121-WA0068.mp4" controls></video>
 
     <h3>Por contacto y contrataciones, complete el siguiente formulario haciendo click
-        <a href="" target="_blank">AQUI</a>
+        <a href="" target="_blank" class="enlace">AQUI</a>
     </h3>
     <form action="" method="">
         <p>
@@ -95,7 +114,6 @@
             </select>
         </p>
         <p>
-            <label for="comentarios">Comentarios</label>
             <textarea name="comentarios" id="" cols="30" rows="3">Escriba aquí su comentario</textarea>
         </p>
         <p>
